@@ -1,0 +1,520 @@
+*{
+	font-family: montserrat;
+	margin: 0;
+	padding: 0;
+}
+main{
+	width: 100%;
+    padding: 0 !important;  
+    margin: 0 !important; 
+}
+
+body{
+	background: #FBF8EF;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow-x: hidden;
+	
+}
+.carousel-item img {
+    filter: brightness(0.5);
+}
+
+.smallwindow {
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+.content {
+   
+    font-size: small;
+}
+#tab-content {
+    margin-top: 1rem;
+}
+
+[data-tab-content] {
+    display: none;
+}
+
+.active[data-tab-content] {
+    display: block;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid black;
+}
+
+#textarea {
+    display: flex;
+    padding: 1rem;
+    border: .5px solid #cccccc;
+}
+
+textarea {
+    width: 87%;
+    border: 2px solid #cccccc;
+    border-radius: 1.5rem;
+    font-size: 1.5rem;
+    margin-right: .75rem;
+    padding: 1rem;
+}
+
+.postbutton {
+    float: right;
+    border: 2px solid #cccccc;
+    border-radius: 2rem;
+    width: 5rem;
+    margin: 2rem auto;
+    font-weight: bold;
+    
+}
+
+.postbutton:hover {
+    background-color: #aaaaaa;
+}
+
+#post {
+    padding: 4px;
+    padding-right: 1rem;
+    font-size: 13px;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.user_profile {
+    margin-right: 1rem;
+    padding: .5rem;
+}
+
+.user_name {
+    margin-top: .5rem;
+    font-weight: bold;
+}
+.below {
+    display: block; 
+    margin-top: 5px; 
+}
+.container{
+	background: #78B3CE;
+	padding: 20px !important;
+	font-family: monospace;
+	max-width: 100% !important;
+	width: 100% !important; 
+	box-shadow: 0 0 5px #0000;
+	text-align: center;
+	margin: 0 !important;
+	
+}
+
+.head{
+	margin-bottom: 20px;
+}
+.text{
+	margin: 10px 0;
+	font-family: sans-serif;
+	font-size: 0.9em;
+}
+
+.commentbox{
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+}
+.commentbox > img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 20px;
+	object-fit: cover;
+	object-position: center;
+}
+.commentimage{
+	width: 50px; 
+    height: 50px; 
+    object-fit: cover; 
+    border-radius: 50%; 
+}
+.content{
+	width: 100%;
+    flex-direction: column;
+}
+.user{
+	border: none;
+	outline: none;
+	margin: 5px 0 ;
+	color: #808080;
+	margin-left: 20px;
+	padding: 10px;
+}
+
+.commentinput > input {
+	
+	padding: 10px;
+	padding-left: 0;
+	outline: none;
+	border: 2px solid rgb(128, 255, 0);
+	margin-bottom: 10px;
+}
+.commentinput {
+    display: flex; /* Flexbox düzeni */
+    align-items: center; /* Dikey merkezleme */
+    justify-content: center; /* Yatay merkezleme */
+    gap: 15px; /* Elemanlar arasında boşluk */
+}
+
+.commentinput select,
+.commentinput textarea {
+    width: 13%; /* İkisini de aynı genişlikte yap */
+    padding: 10px; /* İç boşluk */
+    border: 2px solid #cccccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: none; /* Boyutlandırmayı kapat */
+}
+.card-text {
+	display: none;
+}
+.buttons{
+	display: inline;
+	justify-content: space-between;
+	align-items: center;
+	color: #F96E2A;
+}
+.buttons button {
+	padding: 10px 30px;
+	background: lightgrey;
+	color: #F96E2A;
+	text-transform:uppercase;
+	border: none;
+	outline: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.buttons button.abled {
+	background: #F96E2A;
+	color: #fff;
+}
+
+.policy{
+	margin: 20px 0;
+	font-size: 0.8em;
+	font-family: Arial, sans-serif;
+	color: #808080;
+}
+.notify{
+	margin-right: 10px;
+	align-items: center;
+}
+.notify > input{
+	margin-right: 5px;
+}
+.section{
+	color:#ffffff ;
+}
+.section-header{
+	color: #171717;
+}
+.navbar-logo{
+	height:60px;
+}
+header h1{
+	margin-top: 80px;	
+}
+.navbar-nav a{
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 500;
+	color: white;
+}
+
+.carousel {
+	margin-bottom: 4rem;
+	background-color: grey;
+  }
+  .carousel-caption {
+	bottom: 3rem;
+	z-index: 10;
+  }
+  .carousel-item {
+	height: 32rem;
+  }
+  .carousel-item > img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	height: 32rem;
+  }
+.carousel-caption p{
+	color: white;
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+}
+.carousel-inner::before{
+	content:'';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.btn-warning  {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #ffc107;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;   
+  transition: background-color 0.3s ease;
+  max-width: 2000px; 
+}
+/*support*/
+.section-header{
+	color: #ffffff;
+}	
+.pb-3{
+	color: black;
+	font-family: montserrat;
+}
+
+.btn-custom{
+   width: 100%; 
+  padding: 15px;
+  font-size: 18px;
+  background-color: #ffc107;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;   
+  transition: background-color 0.3s ease;
+  max-width: 2000px; 
+}
+
+.btn-warning:hover {
+  background-color: #e0a800;
+}
+.nav-item i {
+    align-items: flex-end;
+    margin-left: 2rem;
+	
+}
+
+/*support part*/
+
+.contact {
+    margin-top: 0; /* Varsayılan boşluğu sıfırlar */
+    padding-top: 10px; /* Üstten biraz boşluk ekler */
+}
+
+.contact .section-header {
+    color: #171717;
+}
+
+.contact form {
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact form input,
+.contact form select,
+.contact form textarea {
+    margin-bottom: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.contact form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffc107;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.contact form button:hover {
+    background-color: #e0a800;
+}
+
+/* General styles for all icons */
+.nav-icon a i {
+	font-size: 2rem; /* Adjust the icon size */
+	padding: 5px;
+	border-radius: 50%;
+	transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+  }
+  /* Add space between icons */
+.nav-icon {
+	margin-right: 15px; /* Adds space between each icon */
+  }
+  /* Twitter (X) */
+  .nav-icon a i.fa-x-twitter {
+	background-color: #1DA1F2;
+	color: white;
+  }
+  
+  /* Instagram */
+  .nav-icon a i.fa-instagram {
+	background-color: #E4405F;
+	color: white;
+  }
+  
+  /* LinkedIn */
+  .nav-icon a i.fa-linkedin {
+	background-color: #0077B5;
+	color: white;
+  }
+  
+  /* WhatsApp */
+  .nav-icon a i.fa-whatsapp {
+	background-color: #25D366;
+	color: white;
+  }
+  
+  /* Facebook */
+  .nav-icon a i.fa-facebook {
+	background-color: #1877F2;
+	color: white;
+  }
+  
+  /* Hover effect for all icons */
+  .nav-icon a i:hover {
+	background-color: #ffffff;
+	color: #000000;
+  }
+  
+/* --------------extra for Mobile----------*/
+/* For tablet devices (768px and below) */
+@media (max-width: 768px) {
+    body {
+      flex-direction: column; /* Stacks content vertically */
+      padding: 10px; /* Adds padding for smaller screens */
+    }
+  
+    .navbar-nav .nav-link {
+      font-size: 12px; /* Reduce font size for navigation links */
+    }
+  
+    .navbar-brand img {
+      width: 60px; /* Shrink the logo */
+    }
+  
+    .container {
+      padding: 15px; /* Reduce padding */
+      box-shadow: none; /* Remove shadow for simplicity */
+    }
+  
+    .commentbox {
+      flex-direction: column; /* Stack comment elements vertically */
+      align-items: center;
+    }
+  
+    .commentinput select,
+    .commentinput textarea {
+      width: 100%; /* Full width for inputs */
+    }
+  
+    .carousel-item {
+      height: 24rem; /* Reduce carousel height */
+    }
+  
+    .carousel-caption p {
+      font-size: 16px; /* Adjust caption text size */
+      width: 90%; /* Full width */
+    }
+  
+    textarea {
+      font-size: 1rem; /* Reduce textarea font size */
+    }
+  
+    .btn-custom,
+    .btn-warning {
+      padding: 10px; /* Smaller buttons */
+      font-size: 16px; /* Adjust font size */
+    }
+  
+    .nav-icon a i {
+      font-size: 1.5rem; /* Adjust icon size */
+      padding: 3px; /* Adjust padding */
+    }
+  }
+  
+  /* For mobile devices (480px and below) */
+  @media (max-width: 480px) {
+    body {
+      justify-content: flex-start; /* Align content to the top */
+      padding: 5px; /* Reduce padding further */
+    }
+  
+    .navbar-nav {
+      display: flex;
+      flex-direction: column; /* Stack navigation items vertically */
+      align-items: center; /* Center navigation links */
+    }
+  
+    .navbar-nav .nav-link {
+      font-size: 10px; /* Further reduce font size */
+      padding: 5px 0; /* Adjust spacing */
+    }
+  
+    .navbar-brand img {
+      width: 50px; /* Shrink the logo more */
+    }
+  
+    .container {
+      padding: 10px; /* Minimize padding */
+      font-size: 0.9em; /* Adjust text size */
+    }
+  
+    .carousel-item {
+      height: 18rem; /* Further reduce carousel height */
+    }
+  
+    .carousel-caption p {
+      font-size: 14px; /* Smaller caption text */
+    }
+  
+    .commentbox img {
+      width: 30px; /* Shrink profile images */
+      height: 30px;
+    }
+  
+    .commentinput select,
+    .commentinput textarea {
+      width: 100%; /* Full width for inputs */
+    }
+  
+    .btn-custom,
+    .btn-warning {
+      padding: 8px; /* Smaller buttons */
+      font-size: 14px; /* Smaller font size */
+    }
+  
+    .nav-icon a i {
+      font-size: 1.2rem; /* Adjust icon size for mobile */
+      padding: 2px;
+    }
+  }

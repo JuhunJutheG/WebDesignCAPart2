@@ -1,0 +1,85 @@
+:root {
+    --bgcolor: linear-gradient(90deg, black, #666666);
+    --buttoncolor: 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #aaaaaa;
+}
+
+.promo-link {
+    color: yellow;
+}
+
+body {
+    overflow-x: hidden;
+    background-image: url('img/background.jpeg');
+
+}
+
+nav {
+    background-color: rgba( 0, 0, 0, 10%);
+}
+
+.container {
+    background-color: #444444;
+    border-radius: 1rem;
+    width: 100%;
+}
+
+#navtop {
+    background-color: rgba( 0, 0, 0, 10%);
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+.carousel {
+    margin-top: 2rem;
+}
+
+.carousel:hover {
+    scale: 102%;
+    transition-duration: 1s;
+    transition-timing-function : ease-in-out;
+}
+
+.carousel-item img {
+    opacity: 60%;
+}
+
+.smallwindow {
+    border: 2px solid white;
+}
+
+.smallwindow:hover {
+    background-color: rgba(179, 203, 108, 0.618);
+    color: black
+}
+
+.container-fluid {
+    background-color: var(--bgcolor);
+
+    margin-top: 2rem;
+}
+
+
+ul .nav-link, ul .nav-icon {
+    color: #eeeeee;
+}
+
+.nav-icon {
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+}
+
+footer {
+    position: relative;
+    bottom: -50vh;
+}
+

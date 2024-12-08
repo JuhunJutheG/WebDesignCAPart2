@@ -1,0 +1,8 @@
+/* fallback */
+@font-face {
+  font-family: 'Playwrite HR';
+  font-style: normal;
+  font-weight: 100 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/playwritehr/v1/WWXVljmQYQCZM5qaU_dwQYcoYibNwMQ.woff2) format('woff2');
+}
